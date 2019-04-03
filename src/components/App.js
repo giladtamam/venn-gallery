@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import debounce from 'debounce';
 import PropTypes from 'prop-types';
-import './App.css'
+import './App.css';
 
 class App extends Component {
   static propTypes = {
@@ -31,7 +31,7 @@ class App extends Component {
 
   setSearchTerm = debounce(searchTerm => {
     this.props.fetchImages({ searchTerm });
-  }, 1000)
+  }, 1000);
 
   handleChange = (event) => {
     const term = event.target.value;
@@ -61,4 +61,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default App;

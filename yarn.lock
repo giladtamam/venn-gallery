@@ -235,13 +235,22 @@
     "@babel/traverse" "^7.1.0"
     "@babel/types" "^7.2.0"
 
-"@babel/helpers@^7.2.0", "@babel/helpers@^7.4.3":
+"@babel/helpers@^7.2.0":
   version "7.4.2"
   resolved "https://nexus.exelator.net/repository/npm-all/@babel/helpers/-/helpers-7.4.2.tgz#3bdfa46a552ca77ef5a0f8551be5f0845ae989be"
   integrity sha512-gQR1eQeroDzFBikhrCccm5Gs2xBjZ57DNjGbqTaHo911IpmSxflOQWMAHPw/TXk8L3isv7s9lYzUkexOeTQUYg==
   dependencies:
     "@babel/template" "^7.4.0"
     "@babel/traverse" "^7.4.0"
+    "@babel/types" "^7.4.0"
+
+"@babel/helpers@^7.4.3":
+  version "7.4.3"
+  resolved "https://nexus.exelator.net/repository/npm-all/@babel/helpers/-/helpers-7.4.3.tgz#7b1d354363494b31cb9a2417ae86af32b7853a3b"
+  integrity sha512-BMh7X0oZqb36CfyhvtbSmcWc3GXocfxv3yNsAEuM0l+fAqSO22rQrUpijr3oE/10jCTrB6/0b9kzmG4VetCj8Q==
+  dependencies:
+    "@babel/template" "^7.4.0"
+    "@babel/traverse" "^7.4.3"
     "@babel/types" "^7.4.0"
 
 "@babel/highlight@^7.0.0":
@@ -8653,6 +8662,11 @@ recursive-readdir@2.2.2:
   integrity sha512-nRCcW9Sj7NuZwa2XvH9co8NPeXUBhZP7CRKJtU+cS6PW9FpCIFoI5ib0NT1ZrbNuPoRy0ylyCaUL8Gih4LSyFg==
   dependencies:
     minimatch "3.0.4"
+
+redux-infinite-scroll@^1.0.9:
+  version "1.0.9"
+  resolved "https://nexus.exelator.net/repository/npm-all/redux-infinite-scroll/-/redux-infinite-scroll-1.0.9.tgz#d0bba2ca5a7e6b6aac42eeef5f7d0036c56aaf1f"
+  integrity sha1-0Luiylp+a2qsQu7vX30ANsVqrx8=
 
 redux-thunk@^2.3.0:
   version "2.3.0"

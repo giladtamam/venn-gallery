@@ -6,12 +6,11 @@ const mapDispatchToProps = {
     fetchImages
 };
   
-// TODO: use reselect  
 const mapStateToProps = (state) => {
     return {
         photos: state.photos || [],
         searchTerm: state.searchTerm || ''
     }
-}
+};
   
-  export default connect(mapStateToProps, mapDispatchToProps)(App)
+  export default connect(mapStateToProps, mapDispatchToProps)(App);

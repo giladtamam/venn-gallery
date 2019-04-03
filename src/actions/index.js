@@ -4,8 +4,8 @@ export const setSearchTerm = (searchTerm) => {
     return {
         type: 'SET_SEARCH_TERM',
         payload: { searchTerm }
-    }
-}
+    };
+};
 
 export const fetchImages = ({ searchTerm, loadMore } = {}) => {
     return (dispatch, getState) => {
@@ -27,7 +27,7 @@ export const fetchImages = ({ searchTerm, loadMore } = {}) => {
                     const payload = {...data.photos, loadMore, searchTerm};
                     dispatch(setSearchTerm(searchTerm));
                     dispatch({ type: 'FETCH_IMAGES_SUCCESS', payload });
-                })
+                });
         }
     };
-  }
+  };
